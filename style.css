@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Poppins&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vollkorn+SC:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-expand-lg {
+  background-color: transparent;
+}
+section {
+  width: 100%;
+}
+.nav-section {
+  background-color: #1363c6 !important;
+}
+.bg {
+  background-image: url("https://themewagon.github.io/AI-html/img/bg-hero.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: calc(1.375rem + 1.5vw);
+  color: white !important;
+}
+.nav-item {
+  margin-right: 14px;
+  margin-top: -10px;
+}
+.nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-brand span {
+  color: rgb(0, 0, 0) !important;
+}
+.fa-magnifying-glass {
+  font-weight: 800;
+}
+.fa-bars {
+  outline: none;
+  color: white;
+  font-size: 30px;
+}
+.body-row {
+  padding-top: 3rem;
+}
+.ai {
+  font-size: 14px;
+  padding: 4px 16px;
+  font-family: "Open Sans", sans-serif;
+  color: white !important;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: inline-block;
+}
+.body-row h1 {
+  font-weight: 700px !important;
+  color: white !important;
+}
+.body-row p {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.btn {
+  background-color: white !important;
+  color: black;
+  padding: 17px 50px;
+  border-radius: 50px;
+}
+.btn-1 {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 17px 50px;
+  border-radius: 50px;
+  border: 1px solid wheat;
+  outline: none;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.about-img {
+  width: 500px;
+  z-index: -100;
+}
+
+.h1 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.cool {
+  position: relative;
+}
+.cool::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 100;
+  background-image: url("https://themewagon.github.io/AI-html/img/bg-about-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btnsss {
+  padding: 4px 16px;
+  border: 1px solid gainsboro;
+  color: #1363c6 !important;
+  font-size: 14px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.p-1,
+.p-2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #555555;
+  letter-spacing: 0.5px;
+}
+.fa-check {
+  font-family: "Ubuntu", sans-serif;
+}
+#section-3 {
+  background-color: #f4f7fe !important;
+  width: 100%;
+  border: none;
+}
+.b {
+  padding: 6px 24px;
+  color: white;
+  background-color: #1363c6;
+  border-radius: 30px;
+  border: none;
+}
+/* ----------------card-------------------- */
+.fa-robot {
+  position: relative;
+  display: inline-block;
+}
+.h5 {
+  font-size: 20px;
+  margin: 0px 0px 16px;
+  padding: 10px 0px;
+}
+.erat {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.pri {
+  border: 1px solid rgb(131, 131, 233);
+}
+.group {
+  padding: 10px 50px;
+  margin: 50px;
+}
+.btnn {
+  border: 1px solid gray;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: #1363c6;
+}
+.card {
+  border: none;
+}
+.fa-2x {
+  background-color: #f4f7fe !important;
+  padding: 25px;
+  border-radius: 50%;
+}
+.h4 {
+  font-size: 34px;
+  font-family: "Ubuntu", sans-serif;
+}
+.ps {
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  color: #555555;
+}
+#section-4 {
+  width: 100%;
+
+  background-color: #1363c6 !important;
+}
+.bgs {
+  background-image: url("https://themewagon.github.io/AI-html/img/bg-hero.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  color: white;
+}
+.why {
+  border: 1px solid white;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 2px 10px;
+}
+.bge {
+  background-color: white;
+  padding: 9px;
+  border-radius: 50%;
+  font-weight: 900;
+}
+.hai {
+  background: rgba(256, 256, 256, 0.1);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.pb-4 {
+  align-items: center;
+}
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-con {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+.backround-key {
+  background-image: url("https://themewagon.github.io/AI-html/img/project-3.jpg");
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.backround-key::after {
+  background: linear-gradient(rgba(20, 24, 62, 0), #14183e);
+
+  content: " ";
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  top: 1px;
+  left: 1px;
+  z-index: -100;
+  border-radius: 10px;
+}
+
+.backround-key-1 {
+  background-image: url("https://themewagon.github.io/AI-html/img/project-1.jpg");
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.backround-key-1::after {
+  background: linear-gradient(rgba(20, 24, 62, 0), #14183e);
+
+  content: " ";
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  top: 1px;
+  left: 1px;
+  z-index: -100;
+  border-radius: 10px;
+}
+
+.backround-key-2 {
+  background-image: url("https://themewagon.github.io/AI-html/img/project-2.jpg");
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+.backround-key-2::after {
+  background: linear-gradient(rgba(20, 24, 62, 0), #14183e);
+
+  content: " ";
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  top: 1px;
+  left: 1px;
+  z-index: -100;
+  border-radius: 10px;
+}
+.text {
+  color: rgb(255, 255, 255);
+  z-index: 100;
+}
+.fa-arrow-right {
+  background-color: #1363c6;
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 50%;
+}
+.robot {
+  background: rgba(20, 24, 62, 0.7);
+  padding: 4px 10px;
+  display: inline-block;
+  border-radius: 30px;
+}
+.border {
+  border-radius: 10px;
+  border: 3px solid red;
+}
+.cv{
+  background-color: #f4f7fe !important;
+}
+.accordion-button{
+  background-color: #f4f7fe !important
+  
+}
+.fab {
+  background-color: #1363c6;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  padding-top: 12px;
+
+}
+
+#section-9{
+  background-color: #1363c6;
+}
+.container-fluid{
+  
+  background-image: url("https://themewagon.github.io/AI-html/img/bg-hero.png");
+  background-position: center;
+  background-size: contain;
+}
+.ro{
+  margin-left: -20px;
+  margin-top: 30px;
+  padding: 20px 0px;
+}
+.input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 70px;
+ 
+}
+.search{
+  position: relative;
+}
+.fa-paper-plane{
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+.bs{
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: white;
+}
+#section-10{
+  background-color: #14183e;
+  width: 100%;
+}
+.footer{
+  background-image: url("https://themewagon.github.io/AI-html/img/footer.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.iconns .fab {
+ background-color: transparent;
+ border: 1px solid #ffffff80;;
+ padding-left: 12px;
+}
+.fa-greater-than{
+  padding: 0px 10px
+}
+.tem{
+  color: #ffffff80;
+}
+
+
